@@ -1,0 +1,23 @@
+body {
+ font-family: serif;
+
+
+}
+p{
+ font-size: 200%;
+ font-weight: bold;
+}
+
+h1{
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+.sub-header {
+ font-style: italic;
+
+}
+b {
+ text-decoration: underline;
+
+}
