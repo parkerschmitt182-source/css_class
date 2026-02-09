@@ -1,0 +1,34 @@
+div {
+    height: 300px;
+    width: 400px;
+    background-color: grey;
+
+}#s1 {
+    height: 75%;
+    width: 75%;
+
+    background-color: lightgreen;
+}
+p{
+ background-color: blue;
+  min-width: 1850px;
+  min-height: 1000px;
+  max-height: 50px;
+  max-width: 500px;
+  overflow: hidden;
+}
+h2 {
+    border-width: thick;
+    border-style: dashed;
+    border-color: red;
+    border: thick dashed red;
+    padding: 10px;
+    margin: 20px;
+    }
+
+li {
+ display: inline;
+}
+#s3 {
+visibility: hidden;
+}
