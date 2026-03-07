@@ -1,0 +1,22 @@
+body {
+    width: 600px;
+    margin: auto;
+}
+#content{
+    overflow: auto;
+    height: 100%;
+}
+#nav, #feature, #footer {
+    background-color: grey;
+    padding: 10px;
+
+}
+.column1, .column2, .column3 {
+    background-color: pink;
+    width: 180px;
+    float: left;
+    margin: 10px;
+
+
+}
+
