@@ -1,3 +1,19 @@
 h3 {
-  text-shadow: 1px 1px 0px #000000;
+  text-shadow: 1px 1px 0px black;
+  font-size: 15px;
+}
+p {
+  text-indent: 20px;
+  line-height: 1.4em;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+}
+p:first-letter {
+  font-size: 300%;
+}
+.sub-header {
+  text-indent: 20px;
+  line-height: 1.4em;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
 }
