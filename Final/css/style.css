@@ -1,0 +1,191 @@
+
+.topnav {
+    top: 1px;
+    z-index: 1;
+    background-image: url("road.png");
+    overflow: hidden;
+    height:4em;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 5em;
+    position: fixed;
+    width: 100%;
+}
+.topnav a {
+    color: #f2f2f2;
+    padding: 4px 16px;
+
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: grey;
+    opacity: 50%;
+    color: rgb(0,255,255);
+    border-radius: 10px;
+}
+.topnav a:first-letter{
+font-size:125%;
+}
+.topnav a:active {
+ font-style: italic;
+  background-color: grey;
+  opacity: 50%;
+  color: rgb(0,255,255);
+  border-radius: 10px;
+}
+.space {
+    height: 4em;
+}
+body {
+    background-image: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Tahoma, sans-serif, "Arial";
+}
+.images {
+    overflow: hidden;
+    visibility: show;
+    text-align: center;
+    padding: 10px;
+    display:block;
+    margin: auto;
+    border-width: 2px;
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: lightgrey;
+    width: 80%;
+    height: 25%;
+    text-align: center;
+
+}
+
+.Image {
+    border-radius: 10px;
+    width: 30%;
+}
+
+
+h1 {
+    text-shadow: -7px 11px 4px rgba(0,0,0,0.5);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-transform:uppercase;
+    font-weight: normal;
+    top: 25%;
+    border-radius: 20px;
+    text-align:center;
+    font-size: 400%;
+}
+p {
+    text-indent: 1%;
+    text-align: left;
+    line-height: 1em;
+    letter-spacing: .05em;
+    word-spacing: .01em;
+    font-size: 100%;
+}
+p:first-line {
+    font-style: italic;
+}
+.acadia {
+    position:relative;
+    width: 90%;
+    min-width: 90%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 150%;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+}
+.adventures {
+    position:relative;
+    width: 90%;
+    min-width: 90%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 150%;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+}
+.adventures a:link {
+    color: green;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+}
+.adventures a:hover {
+    background-color:white;
+}
+.adventures a:visited {
+color: blue;
+}
+.contact {
+
+    overflow: hidden;
+    visibility: show;
+    text-align: center;
+    padding: 10px;
+    display:block;
+    margin: auto;
+    border-width: 2px;
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: lightgrey;
+    width: 50%;
+    text-align: center;
+}
+.contact input {
+    border-radius: 10px;
+}
+.contact input:focus{
+    background-color:lightgrey;
+    border-radius: 90px;
+    opacity: 70%;
+}
+.contact textarea:focus {
+    background-color: lightgrey;
+    opacity: 70%;
+}
+.contact i{
+    color: red;
+}
+.contact button {
+    background-color: grey;
+    border-radius: 20px;
+    opacity: 80%;
+}
+.contact button:hover {
+    background-color: lightgrey;
+    border-radius: 20px;
+    opacity: 80%;
+}
+.trails li {
+    position: relative;
+    list-style-image: url("hike.png");
+    list-style-position: outside;
+}
+.paths li {
+
+    list-style-type: upper-roman;
+}
+table {
+    margin: auto;
+    border-collapse: seperate;
+    border-spacing: 10px;
+}
+td, th {
+    border: 1px solid hsla(223, 3%, 33%, 1);
+    text-align: center;
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+.imagetable {
+    width: 50%;
+    margin: auto;
+}
