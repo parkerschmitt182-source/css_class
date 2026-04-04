@@ -77,6 +77,7 @@ h1 {
     border-radius: 20px;
     text-align:center;
     font-size: 400%;
+    float: none;
 }
 p {
     text-indent: 1%;
@@ -164,7 +165,7 @@ color: blue;
     opacity: 80%;
 }
 .trails li {
-    position: relative;
+
     list-style-image: url("hike.png");
     list-style-position: outside;
 }
@@ -188,4 +189,35 @@ tr:nth-child(even) {
 .imagetable {
     width: 50%;
     margin: auto;
+}
+.date {
+  position: absolute;
+  top: 150px;
+  left: 75px;
+}
+.popover {
+width: 25%;
+height: 25%;
+float: left;
+margin-right: 10px;
+border-radius: 50px;
+
+}
+.pond1 {
+
+width: 25%;
+height: 25%;
+float: right;
+margin-left: 10px;
+border-radius: 50px;
+
+}
+.pond2 {
+width: 25%;
+height: 25%;
+
+display: block;
+margin: auto;
+border-radius: 50px;
+
 }
